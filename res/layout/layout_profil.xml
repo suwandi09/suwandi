@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+   <TextView
+       android:id="@+id/nama"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="nama : Suwandi"
+       />
+    <TextView
+       android:id="@+id/nim"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="nama : 183303030005"
+       android:layout_below="@+id/nama"
+       />
+    <TextView
+       android:id="@+id/fakultas"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="fakultas : Teknologi dan ilmu komputer"
+       android:layout_below="@+id/nim"
+       />
+    <TextView
+       android:id="@+id/prodi"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="prodi : teknik informatika"
+       android:layout_below="@+id/fakultas"
+       />
+      
+     
+
+</RelativeLayout>
